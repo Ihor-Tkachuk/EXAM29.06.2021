@@ -1,0 +1,520 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aleo&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+.bhromaon {
+  background-image: url(image/bhromaon-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.bhromaon_place {
+  padding-top: 265px;
+}
+
+.bhromaon-header {
+  font-family: "Josefin Sans";
+  text-align: center;
+}
+.bhromaon-header__title {
+  font-weight: 700;
+  font-size: 48px;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+.bhromaon-header__title_place {
+  margin-bottom: 16px;
+}
+.bhromaon-header__tegline {
+  font-weight: 400;
+  font-size: 22px;
+  color: #ffffff;
+  letter-spacing: 5px;
+}
+.bhromaon-header__tegline_place {
+  margin-bottom: 52px;
+}
+
+.bhromaon-search__form {
+  width: 650px;
+  height: 60px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.bhromaon-input {
+  width: 100%;
+  height: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  color: #999999;
+  font-family: "Josefin Sans";
+  outline: none;
+  letter-spacing: 2px;
+}
+
+.bhromaon-search__bhromaon-input {
+  padding: 0 0 0 128px;
+}
+
+.bhromaon-search__btn {
+  position: absolute;
+  width: 146px;
+  height: 56px;
+  right: 2px;
+  top: 2px;
+  border: none;
+  background: #5474fd;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Aleo", serif;
+  letter-spacing: 1px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bhromaon-search__btn_place {
+  padding-left: 34px;
+  padding-right: 15px;
+}
+
+.scroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.scroll__place {
+  margin-top: 120px;
+  margin-bottom: 135px;
+}
+
+.scroll-down__place {
+  margin-bottom: 15px;
+}
+
+.bhromaon-footer {
+  height: 80px;
+  background-color: #5474fd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bhromaon-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bhromaon-links {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Aleo", serif;
+}
+
+.bhromaon-name {
+  color: #ffffff;
+  font-family: "Josefin Sans";
+  font-size: 24px;
+}
+
+.bhromaon__bhromaon-footer {
+  padding: 0 330px;
+}
+
+.bhromaon-menu__item {
+  margin-left: 42px;
+}
+
+.why-header {
+  background-image: url(image/why-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.why-header-contant {
+  max-width: 50%;
+}
+.why-header-contant__why-text {
+  margin-top: 70px;
+  margin-left: 0;
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+}
+
+.why__why-header {
+  padding-left: calc(330/1770*100%);
+  padding-top: calc(120/1770*100%);
+  padding-right: calc(330/1770*100%);
+  padding-bottom: calc(120/1770*100%);
+}
+
+.why-title {
+  color: #ffffff;
+  font-family: "Aleo", serif;
+  font-size: 36px;
+}
+
+.why-text {
+  color: #e8e8e8;
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 530px;
+}
+
+.why-images {
+  position: relative;
+}
+.why-images__why-water {
+  position: absolute;
+  left: 80px;
+  top: 0;
+}
+.why-images__why-mountains {
+  position: absolute;
+  top: 227px;
+  left: 205px;
+}
+
+.why-button {
+  width: 225px;
+  height: 60px;
+  background-color: #5474fd;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.why-button__why-button-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Aleo", serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 21px 36px;
+  position: absolute;
+}
+
+.why-button::before {
+  content: url(image/why-gradient.png);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.why-footer {
+  max-width: 100%;
+  min-height: 338px;
+  background-color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.why-footer__item {
+  text-align: center;
+  margin: 0 80px;
+}
+
+.why-icon-text {
+  color: #e8e8e8;
+  font-family: "Aleo", serif;
+  font-size: 36px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+}
+
+.why-footer::after {
+  content: url(image/why-dots.png);
+  position: absolute;
+  margin-bottom: 138px;
+}
+
+.spain {
+  background-image: url(image/spain-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+.spain__spain-contant {
+  position: absolute;
+  left: calc(345/1770*100%);
+  top: calc(230/700*100%);
+  z-index: 29;
+  padding: 50px 30px;
+}
+
+.spain-contant {
+  background-color: #232323;
+  opacity: 0.902;
+  width: 540px;
+  height: 371px;
+  color: #e8e8e8;
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 20px;
+}
+.spain-contant__spain-text {
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+.spain-contant__spain-country {
+  margin-bottom: 30px;
+}
+
+.spain-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.spain-two {
+  background-image: url(image/spain-two-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+.spain-two__spain-contant {
+  position: absolute;
+  right: calc(345/1770*100%);
+  top: calc(230/700*100%);
+  z-index: 29;
+  padding: 50px 30px;
+}
+
+.spain-contant {
+  background-color: #232323;
+  opacity: 0.902;
+  width: 540px;
+  height: 371px;
+  color: #e8e8e8;
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 20px;
+}
+.spain-contant__spain-text {
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+.spain-contant__spain-country {
+  margin-bottom: 30px;
+}
+
+.spain-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.what {
+  min-height: 100vh;
+}
+.what__what-header {
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+.what__what-footer {
+  padding-top: 120px;
+}
+
+.what-header {
+  background-image: url(image/what-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.what-header__what-main {
+  margin: 100px auto 200px;
+}
+
+.what-title {
+  text-align: center;
+  font-family: "Aleo", serif;
+  color: #ffffff;
+  font-size: 36px;
+}
+
+.what-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1110px;
+  max-height: 283px;
+  background-color: #333333;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.what-main__what-quote {
+  padding: 50px 55px 50px 60px;
+}
+
+.what-quote {
+  color: #e8e8e8;
+  font-family: "Josefin Sans";
+}
+.what-quote__what-quote-text {
+  margin-top: 36px;
+}
+
+.what-quote-name {
+  font-size: 20px;
+}
+
+.what-quote-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.what-footer {
+  background-color: #232323;
+  height: 268px;
+  color: #ffffff;
+  font-family: "Josefin Sans";
+  text-align: center;
+}
+.what-footer__what-footer-tegline {
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+.what-footer-logo {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+.what-footer-tegline {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1.4px;
+}
+
+.what-footer-social-links {
+  text-decoration: none;
+}
+
+.what-footer-social__what-footer-social-links {
+  margin: 11px;
+}
+
+.what-footer-social__what-footer-social-links_active {
+  color: #5474fd;
+}
+
+html, body {
+  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}

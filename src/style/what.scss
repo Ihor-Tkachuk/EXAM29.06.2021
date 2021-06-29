@@ -1,0 +1,83 @@
+.what {
+    min-height: 100vh;
+
+    &__what-header {
+        padding-top: 120px;
+        padding-bottom: 20px;
+    }
+    &__what-footer {
+        padding-top: 120px;
+    }
+}
+.what-header {
+    background-image: url(image/what-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__what-main {
+        margin: 100px auto 200px;
+    }
+}
+.what-title {
+    text-align: center;
+    font-family: $font-family-aleo;
+    color: $color-white;
+    font-size: $font-why-title-size;
+}
+.what-main {
+    display: flex;
+    max-width: 1110px;
+    max-height: 283px;
+    background-color: $color-dark-grey;
+    justify-content: center;
+
+    &__what-quote {
+        padding: 50px 55px 50px 60px;
+    }
+}
+.what-quote {
+    color: $color-dark-white;
+    font-family: $font-family-default;
+
+    &__what-quote-text {
+        margin-top: 36px;
+    }
+}
+.what-quote-name {
+    font-size: $font-spain-size;
+}
+.what-quote-text {  
+    font-size: $font-why-text-size;
+    line-height: 1.5;
+}
+.what-footer {
+    background-color: $color-opacity-grey;
+    height: 268px;
+    color: $color-white;
+    font-family: $font-family-default;
+    text-align: center;
+
+    &__what-footer-tegline {
+        margin-top: 16px;
+        margin-bottom: 30px;
+    }
+}
+.what-footer-logo {
+    font-size: $font-bxromaon-logo-size;
+    font-weight: $font-bxromaon-title-weight;
+    letter-spacing: 5px;
+}
+.what-footer-tegline {
+    font-weight: $font-bxromaon-tegline-weight;
+    font-size: $font-why-text-size;
+    letter-spacing: 1.4px;
+}
+.what-footer-social-links {
+    text-decoration: none;
+}
+.what-footer-social__what-footer-social-links {
+    margin: 11px;
+}
+.what-footer-social__what-footer-social-links_active {
+    color: $color-bleu;
+}

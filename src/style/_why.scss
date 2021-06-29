@@ -1,0 +1,113 @@
+.why-header {
+    background-image: url(image/why-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: start;
+}
+.why-header-contant {
+   max-width: 50%;
+
+   &__why-text {
+       margin-top: 70px;
+       margin-left: 0;
+       margin-bottom: 50px;
+       letter-spacing: 2px;
+   }
+}
+.why__why-header {
+    padding-left: calc(330/1770*100%);
+    padding-top: calc(120/1770*100%);
+    padding-right: calc(330/1770*100%);
+    padding-bottom: calc(120/1770*100%);
+}
+.why-title {
+    color: $color-white;
+    font-family: $font-family-aleo;
+    font-size: $font-why-title-size;
+}
+.why-text {
+    color: $color-dark-white;
+    font-family: $font-family-default;
+    font-size: $font-why-text-size;
+    font-weight: $font-why-text-weight;
+    max-width: 530px;
+}
+.why-images {
+    position: relative;
+
+    &__why-water {
+        position: absolute;
+        left: 80px;
+        top: 0;
+    }
+    &__why-mountains {
+        position: absolute;
+        top: 227px;
+        left: 205px;
+    }
+}
+.why-button {
+    width: 225px;
+    height: 60px;
+    background-color: $color-bleu;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__why-button-link {
+        color: $color-white;
+        text-decoration: none;
+        font-family: $font-family-aleo;
+        font-size: $font-why-text-size;
+        letter-spacing: 1px;
+        text-align: center;
+        padding: 21px 36px;
+        position: absolute;
+    }
+
+}
+.why-button::before {
+    content: url(image/why-gradient.png);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.why-footer {
+    max-width: 100%;
+    min-height: 338px;
+    background-color: $color-dark-grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &__item {
+        text-align: center;
+        margin: 0 80px;
+    }
+}
+.why-icon-text {
+    color: $color-dark-white;
+    font-family: $font-family-aleo;
+    font-size: $font-why-title-size;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.why-footer::after {
+    content: url(image/why-dots.png);
+    position: absolute;
+    margin-bottom: 138px;
+
+}
+
+
+
+
+

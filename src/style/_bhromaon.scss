@@ -1,0 +1,117 @@
+.bhromaon {
+    background-image: url(image/bhromaon-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.bhromaon_place {
+    padding-top: 265px;
+}
+.bhromaon-header {
+    font-family: $font-family-default;
+    text-align: center;
+
+    &__title {
+        font-weight: $font-bxromaon-title-weight;
+        font-size: $font-bxromaon-title-size;
+        color: $color-white;
+        letter-spacing: 2px;
+    }
+    &__title_place {
+        margin-bottom: 16px;
+    }
+    &__tegline {
+        font-weight: $font-bxromaon-tegline-weight;
+        font-size: $font-bxromaon-tegline-size;
+        color: $color-white;
+        letter-spacing: 5px;
+    }
+    &__tegline_place {
+        margin-bottom: 52px;
+    }     
+}
+.bhromaon-search__form {
+    width: 650px;
+    height: 60px;
+    position: relative;
+    margin: 0 auto;
+}
+.bhromaon-input {
+    width: 100%;
+    height: 100%;
+    font-weight: $font-bxromaon-input-search-weight;
+    font-size: $font-bxromaon-search-size;
+    color: $color-input-search-grey;
+    font-family: $font-family-default;
+    outline: none;
+    letter-spacing: 2px;
+}
+.bhromaon-search__bhromaon-input {
+    padding: 0 0 0 128px;
+}
+.bhromaon-search__btn {
+    position: absolute;
+    width: 146px;
+    height: 56px;
+    right: 2px;
+    top: 2px;
+    border: none;
+    background: $color-bleu;
+    cursor: pointer;
+    color: $color-white;
+    font-family: $font-family-aleo;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bhromaon-search__btn_place {
+    padding-left: 34px;
+    padding-right: 15px;
+}
+.scroll {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: $color-white;
+    font-family: $font-family-default;
+    font-size: $font-bxromaon-scroll-size;
+    letter-spacing: 2px;
+}
+.scroll__place {
+    margin-top: 120px;
+    margin-bottom: 135px;
+}
+.scroll-down__place {
+    margin-bottom: 15px;
+}
+.bhromaon-footer {
+    height: 80px;
+    background-color: $color-bleu;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bhromaon-menu {
+    display: flex;
+    justify-content: space-between;
+}
+.bhromaon-links {
+    text-decoration: none;
+    color: $color-white;
+    font-size: $font-bxromaon-footer-size;
+    font-family: $font-family-aleo;
+}
+.bhromaon-name {
+    color: $color-white;
+    font-family: $font-family-default;
+    font-size: $font-bxromaon-logo-size;
+}
+.bhromaon__bhromaon-footer {
+    padding: 0 330px;
+}
+.bhromaon-menu__item {
+    margin-left: 42px;
+}

@@ -1,0 +1,40 @@
+.spain-two {
+    background-image: url(image/spain-two-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+
+    &__spain-contant {
+    position: absolute;
+    right: calc(345/1770*100%);
+    top: calc(230/700*100%);
+    z-index: 29;
+    padding: 50px 30px;
+    }
+
+}
+    .spain-contant {
+    background-color: $color-opacity-grey;
+    opacity: 0.902;
+    width: 540px;
+    height: 371px;
+    color: $color-dark-white;
+    font-family: $font-family-default;
+    font-weight: $font-bxromaon-tegline-weight;
+    font-size: $font-spain-size;
+  
+    &__spain-text {
+      margin-top: 25px;
+      margin-bottom: 45px;
+    }
+    &__spain-country {
+        margin-bottom: 30px;
+    }
+}
+.spain-text {
+    font-size: $font-why-text-size;
+    line-height: 1.5;
+}
+
+  
